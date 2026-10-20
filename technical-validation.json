@@ -1,0 +1,26 @@
+{
+  "uniform-full-20.333s.mp4": {
+    "frames": 488,
+    "fps": 24,
+    "duration": 20.333333,
+    "size": [
+      960,
+      544
+    ],
+    "audio_present": true,
+    "full_decode": "PASS",
+    "sha256": "6b17f797d2f8bbc94c2d0e1a41f2aaa08e2f6e554439a0c145b365220e45aecd"
+  },
+  "D-vs-uniform-full-20.333s.mp4": {
+    "frames": 488,
+    "fps": 24,
+    "duration": 20.333333,
+    "size": [
+      1920,
+      584
+    ],
+    "audio_present": true,
+    "full_decode": "PASS",
+    "sha256": "7429d14ae6c529651b7100979e3f7cd27804a3fc226be00e13ab25582bda700b"
+  }
+}

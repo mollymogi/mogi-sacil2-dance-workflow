@@ -1,0 +1,92 @@
+{
+  "shot-00.api.json": {
+    "node_count": 28,
+    "link_count": 33,
+    "explicit_api_inputs_checked": 88,
+    "all_explicit_values_and_links_match": true,
+    "method": "Offline validation of saved widget-array positions and every explicit API input/link against successful execution graph; UI-only seed policy=fixed.",
+    "live_gui_import_this_export": false,
+    "gpu_rerun_this_export": false
+  },
+  "shot-01.api.json": {
+    "node_count": 28,
+    "link_count": 33,
+    "explicit_api_inputs_checked": 88,
+    "all_explicit_values_and_links_match": true,
+    "method": "Offline validation of saved widget-array positions and every explicit API input/link against successful execution graph; UI-only seed policy=fixed.",
+    "live_gui_import_this_export": false,
+    "gpu_rerun_this_export": false
+  },
+  "shot-02.api.json": {
+    "node_count": 28,
+    "link_count": 33,
+    "explicit_api_inputs_checked": 88,
+    "all_explicit_values_and_links_match": true,
+    "method": "Offline validation of saved widget-array positions and every explicit API input/link against successful execution graph; UI-only seed policy=fixed.",
+    "live_gui_import_this_export": false,
+    "gpu_rerun_this_export": false
+  },
+  "shot-03.api.json": {
+    "node_count": 28,
+    "link_count": 33,
+    "explicit_api_inputs_checked": 88,
+    "all_explicit_values_and_links_match": true,
+    "method": "Offline validation of saved widget-array positions and every explicit API input/link against successful execution graph; UI-only seed policy=fixed.",
+    "live_gui_import_this_export": false,
+    "gpu_rerun_this_export": false
+  },
+  "shot-04.api.json": {
+    "node_count": 28,
+    "link_count": 33,
+    "explicit_api_inputs_checked": 88,
+    "all_explicit_values_and_links_match": true,
+    "method": "Offline validation of saved widget-array positions and every explicit API input/link against successful execution graph; UI-only seed policy=fixed.",
+    "live_gui_import_this_export": false,
+    "gpu_rerun_this_export": false
+  },
+  "shot-05.api.json": {
+    "node_count": 28,
+    "link_count": 33,
+    "explicit_api_inputs_checked": 88,
+    "all_explicit_values_and_links_match": true,
+    "method": "Offline validation of saved widget-array positions and every explicit API input/link against successful execution graph; UI-only seed policy=fixed.",
+    "live_gui_import_this_export": false,
+    "gpu_rerun_this_export": false
+  },
+  "shot-06.api.json": {
+    "node_count": 28,
+    "link_count": 33,
+    "explicit_api_inputs_checked": 88,
+    "all_explicit_values_and_links_match": true,
+    "method": "Offline validation of saved widget-array positions and every explicit API input/link against successful execution graph; UI-only seed policy=fixed.",
+    "live_gui_import_this_export": false,
+    "gpu_rerun_this_export": false
+  },
+  "shot-07.api.json": {
+    "node_count": 35,
+    "link_count": 56,
+    "explicit_api_inputs_checked": 129,
+    "all_explicit_values_and_links_match": true,
+    "method": "Offline validation of saved widget-array positions and every explicit API input/link against successful execution graph; UI-only seed policy=fixed.",
+    "live_gui_import_this_export": false,
+    "gpu_rerun_this_export": false
+  },
+  "shot-08.api.json": {
+    "node_count": 28,
+    "link_count": 33,
+    "explicit_api_inputs_checked": 88,
+    "all_explicit_values_and_links_match": true,
+    "method": "Offline validation of saved widget-array positions and every explicit API input/link against successful execution graph; UI-only seed policy=fixed.",
+    "live_gui_import_this_export": false,
+    "gpu_rerun_this_export": false
+  },
+  "shot-11.api.json": {
+    "node_count": 28,
+    "link_count": 33,
+    "explicit_api_inputs_checked": 88,
+    "all_explicit_values_and_links_match": true,
+    "method": "Offline validation of saved widget-array positions and every explicit API input/link against successful execution graph; UI-only seed policy=fixed.",
+    "live_gui_import_this_export": false,
+    "gpu_rerun_this_export": false
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "models": {
+    "wan2.1_14B_SCAIL_2_fp16.safetensors": {
+      "class_type": "UNETLoader",
+      "strength_model": null
+    },
+    "wan2.1_SCAIL_2_DPO_lora_bf16.safetensors": {
+      "class_type": "LoraLoaderModelOnly",
+      "strength_model": 1.0
+    },
+    "umt5_xxl_fp8_e4m3fn_scaled.safetensors": {
+      "class_type": "CLIPLoader",
+      "strength_model": null
+    },
+    "Wan2_1_VAE_bf16.safetensors": {
+      "class_type": "VAELoader",
+      "strength_model": null
+    },
+    "clip_vision_h.safetensors": {
+      "class_type": "CLIPVisionLoader",
+      "strength_model": null
+    },
+    "lightx2v_I2V_14B_480p_cfg_step_distill_rank64_bf16.safetensors": {
+      "class_type": "LoraLoaderModelOnly",
+      "strength_model": 0.8
+    }
+  },
+  "steps": 6,
+  "cfg": 1,
+  "shift": 5,
+  "DPO": 1,
+  "Lightx2v": 0.8,
+  "sampler": "euler",
+  "scheduler": "simple",
+  "pose_start": 0,
+  "pose_end": 1,
+  "post_generation_cutout": false,
+  "not_a_full_film": false
+}

@@ -1,0 +1,82 @@
+{
+  "variant": "SIMPLE_UNIFORM",
+  "frames": 488,
+  "fps": 24,
+  "post_generation_cutout": false,
+  "no_loops_or_speed_changes": true,
+  "shots": [
+    {
+      "shot": 0,
+      "real_frames": 80,
+      "source": "/root/ComfyUI/output/SCAIL2-SIMPLE-UNIFORM-20261019/shot-00/full_00001_.mp4",
+      "original_graphic": false
+    },
+    {
+      "shot": 1,
+      "real_frames": 20,
+      "source": "/root/ComfyUI/output/SCAIL2-SIMPLE-UNIFORM-20261019/shot-01/full_00001_.mp4",
+      "original_graphic": false
+    },
+    {
+      "shot": 2,
+      "real_frames": 29,
+      "source": "/root/ComfyUI/output/SCAIL2-SIMPLE-UNIFORM-20261019/shot-02/full_00001_.mp4",
+      "original_graphic": false
+    },
+    {
+      "shot": 3,
+      "real_frames": 7,
+      "source": "/root/ComfyUI/output/SCAIL2-SIMPLE-UNIFORM-20261019/shot-03/full_00001_.mp4",
+      "original_graphic": false
+    },
+    {
+      "shot": 4,
+      "real_frames": 16,
+      "source": "/root/ComfyUI/output/SCAIL2-SIMPLE-UNIFORM-20261019/shot-04/full_00001_.mp4",
+      "original_graphic": false
+    },
+    {
+      "shot": 5,
+      "real_frames": 13,
+      "source": "/root/ComfyUI/output/SCAIL2-SIMPLE-UNIFORM-20261019/repair05-seed-1/full_00001_.mp4",
+      "original_graphic": false
+    },
+    {
+      "shot": 6,
+      "real_frames": 14,
+      "source": "/root/ComfyUI/output/SCAIL2-SIMPLE-UNIFORM-20261019/shot-06/full_00001_.mp4",
+      "original_graphic": false
+    },
+    {
+      "shot": 7,
+      "real_frames": 156,
+      "source": "/root/ComfyUI/output/SCAIL2-SIMPLE-UNIFORM-20261019/shot-07/full_00001_.mp4",
+      "original_graphic": false
+    },
+    {
+      "shot": 8,
+      "real_frames": 43,
+      "source": "/root/ComfyUI/output/SCAIL2-SIMPLE-UNIFORM-20261019/shot-08/full_00001_.mp4",
+      "original_graphic": false
+    },
+    {
+      "shot": 9,
+      "real_frames": 16,
+      "source": "/root/scail2-full-identity-20261019/assets/shots/shot-09-driving.mp4",
+      "original_graphic": true
+    },
+    {
+      "shot": 10,
+      "real_frames": 27,
+      "source": "/root/scail2-full-identity-20261019/assets/shots/shot-10-driving.mp4",
+      "original_graphic": true
+    },
+    {
+      "shot": 11,
+      "real_frames": 67,
+      "source": "/root/ComfyUI/output/SCAIL2-SIMPLE-UNIFORM-20261019/shot-11/full_00001_.mp4",
+      "original_graphic": false
+    }
+  ],
+  "shutdown": false
+}

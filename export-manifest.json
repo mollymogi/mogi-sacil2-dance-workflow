@@ -1,0 +1,194 @@
+{
+  "source": "dance-project/final-v1",
+  "files": [
+    {
+      "path": "api/shot-00.api.json",
+      "source": "reproduce/api/shot-00.api.json",
+      "bytes": 7672,
+      "sha256": "178040985d5fa10bd92656618755173bcac9de8f5934b96295da24e17f4a2aa9"
+    },
+    {
+      "path": "api/shot-01.api.json",
+      "source": "reproduce/api/shot-01.api.json",
+      "bytes": 7672,
+      "sha256": "4ad6ee726284bdd4a474bf560353c49802b63fcd4e10cd6c56bd172407e5109a"
+    },
+    {
+      "path": "api/shot-02.api.json",
+      "source": "reproduce/api/shot-02.api.json",
+      "bytes": 7352,
+      "sha256": "13f4e3dc948d6e86df74795b66ef03e920438b4768f5618c895eda6402a97622"
+    },
+    {
+      "path": "api/shot-03.api.json",
+      "source": "reproduce/api/shot-03.api.json",
+      "bytes": 7671,
+      "sha256": "59cace8325908e297c11b0ef972c5f7b2d06f4a2db600a4a9570d547c6761f66"
+    },
+    {
+      "path": "api/shot-04.api.json",
+      "source": "reproduce/api/shot-04.api.json",
+      "bytes": 7352,
+      "sha256": "26919849cbf63feb1b2f66b49625471bfb01755a36ec3cd3a22fe54cd8e0368d"
+    },
+    {
+      "path": "api/shot-05.api.json",
+      "source": "reproduce/api/shot-05.api.json",
+      "bytes": 7688,
+      "sha256": "e0c1ab28817dda77c36983a96f9e20787f12347ab6e9390f53017595d82b4e7c"
+    },
+    {
+      "path": "api/shot-06.api.json",
+      "source": "reproduce/api/shot-06.api.json",
+      "bytes": 7672,
+      "sha256": "fd3d5e135aaf2089aa5d782ff7031c906055eda0e564aad136e58598d494d22d"
+    },
+    {
+      "path": "api/shot-07.api.json",
+      "source": "reproduce/api/shot-07.api.json",
+      "bytes": 9893,
+      "sha256": "2a1b8a85c7faf9e428c21bb050b65c1a653ad775cdb06bf256b3c0ed731a0c67"
+    },
+    {
+      "path": "api/shot-08.api.json",
+      "source": "reproduce/api/shot-08.api.json",
+      "bytes": 7672,
+      "sha256": "1b5893be4234f1c563dcd498eb67438a89f1fbe0364213c72f8c04123f564985"
+    },
+    {
+      "path": "api/shot-11.api.json",
+      "source": "reproduce/api/shot-11.api.json",
+      "bytes": 7672,
+      "sha256": "ea400f0f43fb9d52c1df73e7d77a8d6f3c6ec9e13782d28967ce4593af22c219"
+    },
+    {
+      "path": "assembly.json",
+      "source": "reproduce/assembly.json",
+      "bytes": 2352,
+      "sha256": "d48bde1e9f5433b98516b82f1cb0a39423f9ba83c56ee95d955f86c9ee0dbe1c"
+    },
+    {
+      "path": "execution.json",
+      "source": "reproduce/execution.json",
+      "bytes": 11381,
+      "sha256": "54c41c4f57ad70ccd60c952c21d6b895e2794f5b4a4fbdf9eda718fbb3923214"
+    },
+    {
+      "path": "gui/shot-00.gui.json",
+      "source": "reproduce/gui/shot-00.gui.json",
+      "bytes": 46928,
+      "sha256": "9224408aedda7d9349cedaa0faf81dbb32a77268a2ee0f288146cd1c561d8a74"
+    },
+    {
+      "path": "gui/shot-01.gui.json",
+      "source": "reproduce/gui/shot-01.gui.json",
+      "bytes": 46928,
+      "sha256": "ddc782dfc966292360b63ce02bbd953f7d6936ecbb5ee6cde29e2bb1c07bcc61"
+    },
+    {
+      "path": "gui/shot-02.gui.json",
+      "source": "reproduce/gui/shot-02.gui.json",
+      "bytes": 46288,
+      "sha256": "c36b4758b7b37487cb2b9e13237053c551ca184adc019a40ea8fe415f97d6cf5"
+    },
+    {
+      "path": "gui/shot-03.gui.json",
+      "source": "reproduce/gui/shot-03.gui.json",
+      "bytes": 46926,
+      "sha256": "1a2e7ef3647f0f062d6b42fa91ab7f782a085c2ad1f0341f215fcf4bff441562"
+    },
+    {
+      "path": "gui/shot-04.gui.json",
+      "source": "reproduce/gui/shot-04.gui.json",
+      "bytes": 46288,
+      "sha256": "b88eae3760e56f3dfe92c3fb5e3dbc6f855fc21624af7cd69fb8a0f59373e2ab"
+    },
+    {
+      "path": "gui/shot-05.gui.json",
+      "source": "reproduce/gui/shot-05.gui.json",
+      "bytes": 46960,
+      "sha256": "148a65d2239f5b664eb8534bd485431b45d3196abaedee9cc12752563715eb37"
+    },
+    {
+      "path": "gui/shot-06.gui.json",
+      "source": "reproduce/gui/shot-06.gui.json",
+      "bytes": 46928,
+      "sha256": "62b4ad8a6f956acd703ae8c22b1cfa3403e8058a65969d22475623d4c3653d72"
+    },
+    {
+      "path": "gui/shot-07.gui.json",
+      "source": "reproduce/gui/shot-07.gui.json",
+      "bytes": 62820,
+      "sha256": "70aef25ade80384b56793618772a30cb0a6267639db899dd6f5c583769944f31"
+    },
+    {
+      "path": "gui/shot-08.gui.json",
+      "source": "reproduce/gui/shot-08.gui.json",
+      "bytes": 46928,
+      "sha256": "674da9801e1afd4b140f3343503c9c11068b9706e02ebd00a139a5110632c230"
+    },
+    {
+      "path": "gui/shot-11.gui.json",
+      "source": "reproduce/gui/shot-11.gui.json",
+      "bytes": 46928,
+      "sha256": "ac9762a2dcdd005becd6770e53e7f1f30e097926321a32eb013d8331f304a9a8"
+    },
+    {
+      "path": "gui-validation.json",
+      "source": "reproduce/gui-validation.json",
+      "bytes": 4034,
+      "sha256": "6b0e27d05f0b8ea08f9503bf394849be7522c7fb1f532842bc957afad12c7e17"
+    },
+    {
+      "path": "models-parameters.json",
+      "source": "reproduce/models-parameters.json",
+      "bytes": 966,
+      "sha256": "15155884ecd7fd28328fa141cb2dc8f7ca2a810d5147755f76b5e9ed3a8ef587"
+    },
+    {
+      "path": "reference-preparation.json",
+      "source": "reproduce/reference-preparation.json",
+      "bytes": 4474,
+      "sha256": "04962b5c33650b73356f4b550c7480520055ab91b498a0413bda4d04b665f7b5"
+    },
+    {
+      "path": "technical-validation.json",
+      "source": "reproduce/technical-validation.json",
+      "bytes": 559,
+      "sha256": "92743206f03e79cb0405a71f81b173d9b9f6bbb0beb8abb689d2486981d9626f"
+    }
+  ],
+  "validation": {
+    "json_parse": "PASS",
+    "api_gui_node_ids": "PASS",
+    "node_link_references": "PASS",
+    "sampling_parameters": "PASS",
+    "source_bytes_unchanged": "PASS",
+    "api_links_checked": 353,
+    "live_gui_import_this_upload": false,
+    "gpu_rerun_this_upload": false
+  },
+  "required_node_types": [
+    "BasicScheduler",
+    "CLIPLoader",
+    "CLIPTextEncode",
+    "CLIPVisionEncode",
+    "CLIPVisionLoader",
+    "CreateVideo",
+    "GetVideoComponents",
+    "ImageBatch",
+    "ImageFromBatch",
+    "KSamplerSelect",
+    "LoadImage",
+    "LoadVideo",
+    "LoraLoaderModelOnly",
+    "ModelSamplingSD3",
+    "SamplerCustom",
+    "SaveVideo",
+    "UNETLoader",
+    "VAEDecode",
+    "VAELoader",
+    "VHS_LoadImagesPath",
+    "WanSCAILToVideo"
+  ]
+}

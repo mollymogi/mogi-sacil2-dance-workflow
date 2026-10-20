@@ -1,0 +1,289 @@
+{
+  "views": [
+    {
+      "identity": "malfu",
+      "view": "front",
+      "mask_bbox": [
+        177,
+        48,
+        431,
+        943
+      ],
+      "pixels": 131083
+    },
+    {
+      "identity": "malfu",
+      "view": "side",
+      "mask_bbox": [
+        162,
+        55,
+        343,
+        942
+      ],
+      "pixels": 88309
+    },
+    {
+      "identity": "malfu",
+      "view": "back",
+      "mask_bbox": [
+        59,
+        50,
+        312,
+        944
+      ],
+      "pixels": 129109
+    },
+    {
+      "identity": "whale-maid",
+      "view": "front",
+      "mask_bbox": [
+        38,
+        14,
+        486,
+        955
+      ],
+      "pixels": 158571
+    },
+    {
+      "identity": "whale-maid",
+      "view": "side",
+      "mask_bbox": [
+        95,
+        11,
+        366,
+        958
+      ],
+      "pixels": 125088
+    },
+    {
+      "identity": "whale-maid",
+      "view": "back",
+      "mask_bbox": [
+        12,
+        13,
+        457,
+        956
+      ],
+      "pixels": 154907
+    }
+  ],
+  "shots": [
+    {
+      "shot": 0,
+      "layouts": [
+        [
+          "whale-maid",
+          "red",
+          405,
+          317,
+          244,
+          0
+        ],
+        [
+          "malfu",
+          "blue",
+          460,
+          317,
+          244,
+          0
+        ]
+      ],
+      "prefix_views": 4,
+      "mask_frames": 81
+    },
+    {
+      "shot": 1,
+      "layouts": [
+        [
+          "whale-maid",
+          "red",
+          -200,
+          350,
+          1400,
+          -90
+        ],
+        [
+          "malfu",
+          "blue",
+          -270,
+          245,
+          1450,
+          -90
+        ]
+      ],
+      "prefix_views": 4,
+      "mask_frames": 21
+    },
+    {
+      "shot": 2,
+      "layouts": [
+        [
+          "malfu",
+          "blue",
+          480,
+          300,
+          480,
+          0
+        ]
+      ],
+      "prefix_views": 2,
+      "mask_frames": 29
+    },
+    {
+      "shot": 3,
+      "layouts": [
+        [
+          "whale-maid",
+          "blue",
+          445,
+          365,
+          350,
+          12
+        ],
+        [
+          "malfu",
+          "red",
+          550,
+          335,
+          380,
+          12
+        ]
+      ],
+      "prefix_views": 4,
+      "mask_frames": 9
+    },
+    {
+      "shot": 4,
+      "layouts": [
+        [
+          "malfu",
+          "blue",
+          480,
+          1130,
+          2100,
+          0
+        ]
+      ],
+      "prefix_views": 2,
+      "mask_frames": 17
+    },
+    {
+      "shot": 5,
+      "layouts": [
+        [
+          "whale-maid",
+          "red",
+          385,
+          170,
+          650,
+          -90
+        ],
+        [
+          "malfu",
+          "blue",
+          390,
+          410,
+          730,
+          -90
+        ]
+      ],
+      "prefix_views": 4,
+      "mask_frames": 13
+    },
+    {
+      "shot": 6,
+      "layouts": [
+        [
+          "whale-maid",
+          "blue",
+          350,
+          1000,
+          2100,
+          0
+        ],
+        [
+          "malfu",
+          "red",
+          725,
+          1080,
+          2250,
+          0
+        ]
+      ],
+      "prefix_views": 4,
+      "mask_frames": 17
+    },
+    {
+      "shot": 7,
+      "layouts": [
+        [
+          "whale-maid",
+          "blue",
+          196.0,
+          319.5,
+          185,
+          0
+        ],
+        [
+          "malfu",
+          "red",
+          273.5,
+          314.5,
+          203,
+          0
+        ]
+      ],
+      "prefix_views": 4,
+      "mask_frames": 157
+    },
+    {
+      "shot": 8,
+      "layouts": [
+        [
+          "whale-maid",
+          "blue",
+          280,
+          475,
+          750,
+          0
+        ],
+        [
+          "malfu",
+          "red",
+          815,
+          350,
+          900,
+          0
+        ]
+      ],
+      "prefix_views": 4,
+      "mask_frames": 45
+    },
+    {
+      "shot": 11,
+      "layouts": [
+        [
+          "whale-maid",
+          "blue",
+          225,
+          480,
+          840,
+          0
+        ],
+        [
+          "malfu",
+          "red",
+          700,
+          585,
+          830,
+          0
+        ]
+      ],
+      "prefix_views": 4,
+      "mask_frames": 69
+    }
+  ],
+  "post_generation_cutout": false,
+  "reference_black_composite": "Single alpha application, exact colored identity masks",
+  "identity_mapping": "Per-shot retained historical source mask colors; not globally assumed blue=whale. See layouts."
+}

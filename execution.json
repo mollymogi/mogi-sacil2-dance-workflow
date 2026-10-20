@@ -1,0 +1,456 @@
+[
+  {
+    "shot": 0,
+    "name": "uniform-shot-00",
+    "prompt_id": "e5eac854-fbc3-416e-a2c4-73f292bb3028",
+    "video": "/root/ComfyUI/output/SCAIL2-SIMPLE-UNIFORM-20261019/shot-00/full_00001_.mp4",
+    "post_generation_cutout": false,
+    "status": "success",
+    "exact_api_matches_executed": true,
+    "workflow_sha256": "178040985d5fa10bd92656618755173bcac9de8f5934b96295da24e17f4a2aa9",
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "e5eac854-fbc3-416e-a2c4-73f292bb3028",
+          "timestamp": 1792477616387
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [],
+          "prompt_id": "e5eac854-fbc3-416e-a2c4-73f292bb3028",
+          "timestamp": 1792477616398
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "e5eac854-fbc3-416e-a2c4-73f292bb3028",
+          "timestamp": 1792477745376
+        }
+      ]
+    ]
+  },
+  {
+    "shot": 5,
+    "name": "repair05-seed-1",
+    "prompt_id": "b88f2f3e-0ff8-4a7b-90f6-40c784bffcc5",
+    "video": "/root/ComfyUI/output/SCAIL2-SIMPLE-UNIFORM-20261019/repair05-seed-1/full_00001_.mp4",
+    "post_generation_cutout": false,
+    "seed": 2026102402,
+    "status": "success",
+    "exact_api_matches_executed": true,
+    "workflow_sha256": "e0c1ab28817dda77c36983a96f9e20787f12347ab6e9390f53017595d82b4e7c",
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "b88f2f3e-0ff8-4a7b-90f6-40c784bffcc5",
+          "timestamp": 1792481346385
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "29",
+            "30",
+            "31",
+            "1",
+            "2",
+            "8",
+            "730",
+            "731",
+            "742",
+            "752",
+            "760",
+            "761"
+          ],
+          "prompt_id": "b88f2f3e-0ff8-4a7b-90f6-40c784bffcc5",
+          "timestamp": 1792481346397
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "b88f2f3e-0ff8-4a7b-90f6-40c784bffcc5",
+          "timestamp": 1792481363666
+        }
+      ]
+    ]
+  },
+  {
+    "shot": 6,
+    "name": "uniform-shot-06",
+    "prompt_id": "7972ff72-0b57-4409-88ee-5847db73b756",
+    "video": "/root/ComfyUI/output/SCAIL2-SIMPLE-UNIFORM-20261019/shot-06/full_00001_.mp4",
+    "post_generation_cutout": false,
+    "status": "success",
+    "exact_api_matches_executed": true,
+    "workflow_sha256": "fd3d5e135aaf2089aa5d782ff7031c906055eda0e564aad136e58598d494d22d",
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "7972ff72-0b57-4409-88ee-5847db73b756",
+          "timestamp": 1792477768560
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "29",
+            "30",
+            "31"
+          ],
+          "prompt_id": "7972ff72-0b57-4409-88ee-5847db73b756",
+          "timestamp": 1792477768574
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "7972ff72-0b57-4409-88ee-5847db73b756",
+          "timestamp": 1792477790252
+        }
+      ]
+    ]
+  },
+  {
+    "shot": 7,
+    "name": "uniform-shot-07",
+    "prompt_id": "77b414e4-dfc4-4615-9c86-5c21b3e63b5a",
+    "video": "/root/ComfyUI/output/SCAIL2-SIMPLE-UNIFORM-20261019/shot-07/full_00001_.mp4",
+    "post_generation_cutout": false,
+    "status": "success",
+    "exact_api_matches_executed": true,
+    "workflow_sha256": "2a1b8a85c7faf9e428c21bb050b65c1a653ad775cdb06bf256b3c0ed731a0c67",
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "77b414e4-dfc4-4615-9c86-5c21b3e63b5a",
+          "timestamp": 1792478044824
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "29",
+            "30",
+            "31"
+          ],
+          "prompt_id": "77b414e4-dfc4-4615-9c86-5c21b3e63b5a",
+          "timestamp": 1792478044843
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "77b414e4-dfc4-4615-9c86-5c21b3e63b5a",
+          "timestamp": 1792478246399
+        }
+      ]
+    ]
+  },
+  {
+    "shot": 1,
+    "name": "uniform-shot-01",
+    "prompt_id": "b4c0c94c-36bd-406f-8ec2-2ee83d097a93",
+    "video": "/root/ComfyUI/output/SCAIL2-SIMPLE-UNIFORM-20261019/shot-01/full_00001_.mp4",
+    "post_generation_cutout": false,
+    "status": "success",
+    "exact_api_matches_executed": true,
+    "workflow_sha256": "4ad6ee726284bdd4a474bf560353c49802b63fcd4e10cd6c56bd172407e5109a",
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "b4c0c94c-36bd-406f-8ec2-2ee83d097a93",
+          "timestamp": 1792482247407
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "29",
+            "30",
+            "31"
+          ],
+          "prompt_id": "b4c0c94c-36bd-406f-8ec2-2ee83d097a93",
+          "timestamp": 1792482247419
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "b4c0c94c-36bd-406f-8ec2-2ee83d097a93",
+          "timestamp": 1792482271981
+        }
+      ]
+    ]
+  },
+  {
+    "shot": 2,
+    "name": "uniform-shot-02",
+    "prompt_id": "4927ac55-73f5-4d06-9e10-3cebcd1ee7b4",
+    "video": "/root/ComfyUI/output/SCAIL2-SIMPLE-UNIFORM-20261019/shot-02/full_00001_.mp4",
+    "post_generation_cutout": false,
+    "status": "success",
+    "exact_api_matches_executed": true,
+    "workflow_sha256": "13f4e3dc948d6e86df74795b66ef03e920438b4768f5618c895eda6402a97622",
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "4927ac55-73f5-4d06-9e10-3cebcd1ee7b4",
+          "timestamp": 1792482275517
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "20",
+            "21",
+            "22",
+            "23",
+            "25",
+            "26",
+            "27",
+            "29",
+            "30",
+            "31"
+          ],
+          "prompt_id": "4927ac55-73f5-4d06-9e10-3cebcd1ee7b4",
+          "timestamp": 1792482275529
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "4927ac55-73f5-4d06-9e10-3cebcd1ee7b4",
+          "timestamp": 1792482302979
+        }
+      ]
+    ]
+  },
+  {
+    "shot": 3,
+    "name": "uniform-shot-03",
+    "prompt_id": "6167f48b-5c68-47d7-b54e-12f5083d9d42",
+    "video": "/root/ComfyUI/output/SCAIL2-SIMPLE-UNIFORM-20261019/shot-03/full_00001_.mp4",
+    "post_generation_cutout": false,
+    "status": "success",
+    "exact_api_matches_executed": true,
+    "workflow_sha256": "59cace8325908e297c11b0ef972c5f7b2d06f4a2db600a4a9570d547c6761f66",
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "6167f48b-5c68-47d7-b54e-12f5083d9d42",
+          "timestamp": 1792482303559
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "20",
+            "21",
+            "22",
+            "23",
+            "25",
+            "26",
+            "27",
+            "29",
+            "30",
+            "31"
+          ],
+          "prompt_id": "6167f48b-5c68-47d7-b54e-12f5083d9d42",
+          "timestamp": 1792482303571
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "6167f48b-5c68-47d7-b54e-12f5083d9d42",
+          "timestamp": 1792482318648
+        }
+      ]
+    ]
+  },
+  {
+    "shot": 4,
+    "name": "uniform-shot-04",
+    "prompt_id": "8a8f9122-1f70-44e9-a910-52a3e07e91d2",
+    "video": "/root/ComfyUI/output/SCAIL2-SIMPLE-UNIFORM-20261019/shot-04/full_00001_.mp4",
+    "post_generation_cutout": false,
+    "status": "success",
+    "exact_api_matches_executed": true,
+    "workflow_sha256": "26919849cbf63feb1b2f66b49625471bfb01755a36ec3cd3a22fe54cd8e0368d",
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "8a8f9122-1f70-44e9-a910-52a3e07e91d2",
+          "timestamp": 1792482319596
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "20",
+            "21",
+            "22",
+            "23",
+            "25",
+            "26",
+            "27",
+            "29",
+            "30",
+            "31"
+          ],
+          "prompt_id": "8a8f9122-1f70-44e9-a910-52a3e07e91d2",
+          "timestamp": 1792482319608
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "8a8f9122-1f70-44e9-a910-52a3e07e91d2",
+          "timestamp": 1792482336552
+        }
+      ]
+    ]
+  },
+  {
+    "shot": 8,
+    "name": "uniform-shot-08",
+    "prompt_id": "6eee5d88-7620-4578-a32c-4852000ec572",
+    "video": "/root/ComfyUI/output/SCAIL2-SIMPLE-UNIFORM-20261019/shot-08/full_00001_.mp4",
+    "post_generation_cutout": false,
+    "status": "success",
+    "exact_api_matches_executed": true,
+    "workflow_sha256": "1b5893be4234f1c563dcd498eb67438a89f1fbe0364213c72f8c04123f564985",
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "6eee5d88-7620-4578-a32c-4852000ec572",
+          "timestamp": 1792482339642
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "20",
+            "21",
+            "22",
+            "23",
+            "25",
+            "26",
+            "27",
+            "29",
+            "30",
+            "31"
+          ],
+          "prompt_id": "6eee5d88-7620-4578-a32c-4852000ec572",
+          "timestamp": 1792482339655
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "6eee5d88-7620-4578-a32c-4852000ec572",
+          "timestamp": 1792482389577
+        }
+      ]
+    ]
+  },
+  {
+    "shot": 11,
+    "name": "uniform-shot-11",
+    "prompt_id": "0f213f41-9858-48df-862c-993f5087350a",
+    "video": "/root/ComfyUI/output/SCAIL2-SIMPLE-UNIFORM-20261019/shot-11/full_00001_.mp4",
+    "post_generation_cutout": false,
+    "status": "success",
+    "exact_api_matches_executed": true,
+    "workflow_sha256": "ea400f0f43fb9d52c1df73e7d77a8d6f3c6ec9e13782d28967ce4593af22c219",
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "0f213f41-9858-48df-862c-993f5087350a",
+          "timestamp": 1792482391694
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "29",
+            "30",
+            "31"
+          ],
+          "prompt_id": "0f213f41-9858-48df-862c-993f5087350a",
+          "timestamp": 1792482391706
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "0f213f41-9858-48df-862c-993f5087350a",
+          "timestamp": 1792482473849
+        }
+      ]
+    ]
+  }
+]

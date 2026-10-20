@@ -1,0 +1,365 @@
+{
+  "20": {
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "wan2.1_14B_SCAIL_2_fp16.safetensors",
+      "weight_dtype": "default"
+    },
+    "_meta": {
+      "title": "20 SCAIL-2 full FP16 main model"
+    }
+  },
+  "21": {
+    "class_type": "LoraLoaderModelOnly",
+    "inputs": {
+      "model": [
+        "20",
+        0
+      ],
+      "lora_name": "wan2.1_SCAIL_2_DPO_lora_bf16.safetensors",
+      "strength_model": 1.0
+    },
+    "_meta": {
+      "title": "21 Official DPO quality LoRA / 1.0"
+    }
+  },
+  "22": {
+    "class_type": "ModelSamplingSD3",
+    "inputs": {
+      "model": [
+        "31",
+        0
+      ],
+      "shift": 5.0
+    },
+    "_meta": {
+      "title": "22 Official sampling shift / 5"
+    }
+  },
+  "23": {
+    "class_type": "CLIPLoader",
+    "inputs": {
+      "clip_name": "umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+      "type": "wan",
+      "device": "default"
+    },
+    "_meta": {
+      "title": "23 Official UMT5 encoder"
+    }
+  },
+  "24": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "23",
+        0
+      ],
+      "text": "A continuous shot of the blonde woman in the reference images following her RGB driving dancer. She wears a simple black V-neck long-sleeved pullover with thin dark green neckline trim over a white collared shirt, a solid dark green necktie tucked inside the pullover, a black pleated skirt, continuous black pantyhose covering both legs including thighs and knees, and plain black ankle boots. Keep this exact simple outfit, consistent skirt hem and full-length waist-covering pullover. Preserve her reference face and blonde hair. Follow the original visible hand and limb positions, head orientation, motion timing, camera and framing. Only show the body parts visible in the original shot. Preserve scene lighting, background and natural motion blur."
+    },
+    "_meta": {
+      "title": "24 Describe the two supplied characters"
+    }
+  },
+  "25": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "23",
+        0
+      ],
+      "text": ""
+    },
+    "_meta": {
+      "title": "25 Empty negative / official quality preset"
+    }
+  },
+  "26": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "Wan2_1_VAE_bf16.safetensors"
+    },
+    "_meta": {
+      "title": "26 Wan 2.1 VAE"
+    }
+  },
+  "27": {
+    "class_type": "CLIPVisionLoader",
+    "inputs": {
+      "clip_name": "clip_vision_h.safetensors"
+    },
+    "_meta": {
+      "title": "27 CLIP vision H"
+    }
+  },
+  "28": {
+    "class_type": "CLIPVisionEncode",
+    "inputs": {
+      "clip_vision": [
+        "27",
+        0
+      ],
+      "image": [
+        "730",
+        0
+      ],
+      "crop": "none"
+    },
+    "_meta": {
+      "title": "28 Encode reference / no center crop"
+    }
+  },
+  "29": {
+    "class_type": "KSamplerSelect",
+    "inputs": {
+      "sampler_name": "euler"
+    },
+    "_meta": {
+      "title": "29 Official Euler sampler"
+    }
+  },
+  "30": {
+    "class_type": "BasicScheduler",
+    "inputs": {
+      "model": [
+        "22",
+        0
+      ],
+      "scheduler": "simple",
+      "steps": 6,
+      "denoise": 1.0
+    },
+    "_meta": {
+      "title": "Official turbo preset / 6 steps"
+    }
+  },
+  "31": {
+    "class_type": "LoraLoaderModelOnly",
+    "inputs": {
+      "model": [
+        "21",
+        0
+      ],
+      "lora_name": "lightx2v_I2V_14B_480p_cfg_step_distill_rank64_bf16.safetensors",
+      "strength_model": 0.8
+    },
+    "_meta": {
+      "title": "Official Lightx2v turbo LoRA / 0.8"
+    }
+  },
+  "40": {
+    "class_type": "WanSCAILToVideo",
+    "inputs": {
+      "positive": [
+        "24",
+        0
+      ],
+      "negative": [
+        "25",
+        0
+      ],
+      "vae": [
+        "26",
+        0
+      ],
+      "width": 960,
+      "height": 544,
+      "batch_size": 1,
+      "pose_video": [
+        "2",
+        0
+      ],
+      "pose_video_mask": [
+        "8",
+        0
+      ],
+      "replacement_mode": true,
+      "pose_strength": 1.0,
+      "pose_start": 0.0,
+      "pose_end": 1.0,
+      "reference_image": [
+        "760",
+        0
+      ],
+      "reference_image_mask": [
+        "761",
+        0
+      ],
+      "clip_vision_output": [
+        "28",
+        0
+      ],
+      "previous_frame_count": 5,
+      "length": 17,
+      "video_frame_offset": 0
+    }
+  },
+  "41": {
+    "class_type": "SamplerCustom",
+    "inputs": {
+      "model": [
+        "22",
+        0
+      ],
+      "add_noise": true,
+      "noise_seed": 2026102301,
+      "cfg": 1.0,
+      "positive": [
+        "40",
+        0
+      ],
+      "negative": [
+        "40",
+        1
+      ],
+      "sampler": [
+        "29",
+        0
+      ],
+      "sigmas": [
+        "30",
+        0
+      ],
+      "latent_image": [
+        "40",
+        2
+      ]
+    }
+  },
+  "42": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "41",
+        1
+      ],
+      "vae": [
+        "26",
+        0
+      ]
+    }
+  },
+  "43": {
+    "class_type": "CreateVideo",
+    "inputs": {
+      "images": [
+        "42",
+        0
+      ],
+      "fps": 24
+    }
+  },
+  "44": {
+    "class_type": "SaveVideo",
+    "inputs": {
+      "video": [
+        "43",
+        0
+      ],
+      "filename_prefix": "SCAIL2-SIMPLE-UNIFORM-20261019/shot-04/chunk-000",
+      "format": "auto",
+      "codec": "auto"
+    }
+  },
+  "50": {
+    "class_type": "CreateVideo",
+    "inputs": {
+      "images": [
+        "42",
+        0
+      ],
+      "fps": 24
+    }
+  },
+  "51": {
+    "class_type": "SaveVideo",
+    "inputs": {
+      "video": [
+        "50",
+        0
+      ],
+      "filename_prefix": "SCAIL2-SIMPLE-UNIFORM-20261019/shot-04/full",
+      "format": "auto",
+      "codec": "auto"
+    }
+  },
+  "1": {
+    "class_type": "LoadVideo",
+    "inputs": {
+      "file": "scail2-simple-uniform-20261019/shot-04/driving.mp4"
+    }
+  },
+  "2": {
+    "class_type": "GetVideoComponents",
+    "inputs": {
+      "video": [
+        "1",
+        0
+      ]
+    }
+  },
+  "8": {
+    "class_type": "VHS_LoadImagesPath",
+    "inputs": {
+      "directory": "/root/ComfyUI/input/scail2-simple-uniform-20261019/shot-04/masks",
+      "image_load_cap": 0,
+      "skip_first_images": 0,
+      "select_every_nth": 1
+    }
+  },
+  "730": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "scail2-simple-uniform-20261019/shot-04/primary.png"
+    }
+  },
+  "731": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "scail2-simple-uniform-20261019/shot-04/primary-mask.png"
+    }
+  },
+  "742": {
+    "class_type": "VHS_LoadImagesPath",
+    "inputs": {
+      "directory": "/root/ComfyUI/input/scail2-simple-uniform-20261019/shot-04/prefix",
+      "image_load_cap": 0,
+      "skip_first_images": 0,
+      "select_every_nth": 1
+    }
+  },
+  "752": {
+    "class_type": "VHS_LoadImagesPath",
+    "inputs": {
+      "directory": "/root/ComfyUI/input/scail2-simple-uniform-20261019/shot-04/prefix-masks",
+      "image_load_cap": 0,
+      "skip_first_images": 0,
+      "select_every_nth": 1
+    }
+  },
+  "760": {
+    "class_type": "ImageBatch",
+    "inputs": {
+      "image1": [
+        "730",
+        0
+      ],
+      "image2": [
+        "742",
+        0
+      ]
+    }
+  },
+  "761": {
+    "class_type": "ImageBatch",
+    "inputs": {
+      "image1": [
+        "731",
+        0
+      ],
+      "image2": [
+        "752",
+        0
+      ]
+    }
+  }
+}

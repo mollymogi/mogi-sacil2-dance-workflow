@@ -1,0 +1,14 @@
+._*
+.DS_Store
+.env*
+__pycache__/
+*.safetensors
+*.pt
+*.pth
+*.mp4
+*.mov
+*.m4a
+*.wav
+*.png
+*.jpg
+*.zip
