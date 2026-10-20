@@ -12,3 +12,7 @@ __pycache__/
 *.png
 *.jpg
 *.zip
+
+# Published demo assets
+!demo/uniform-full-20.333s.mp4
+!demo/preview.gif
